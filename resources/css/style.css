@@ -3,6 +3,8 @@
   padding: 0;
 }
 
+/* Header Section */
+
 .container {
   display: flex;
   flex-direction: row;
@@ -32,83 +34,38 @@ padding: 0 10px;
 
 }
 
-.science {
-  margin-right: 48px;
-
-}
-
-.logo {
-  margin-left: 30px;
-  margin-top: 10px;
-  margin-bottom: 5px;
-}
+/* End Header Section */
 
 
-/* Start Main Section */
+/* Start Main Container */
 
-.Super {
+.main {
   display: flex;
+  margin-top: 20px;
 }
 
+div {
+  border: solid 3px black;
+}
 
-.maincontainer {
-  display: flex;
-  flex-direction: column;
+.large {
   width: 630px;
-
-}
-
-.middlecontainer {
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
+}
+
+
+
+.medium {
   width: 300px;
-
-}
-
-.smallcontainer{
   display: flex;
   flex-direction: column;
+  margin-right: 32px;
+}
+
+.small {
   width: 240px;
-}
-
-.image1 {
- border: solid 1px black;
-
-}
-
-.p1 {
-  border: solid 2px blue;
-}
-
-.orca {
-  border: solid 1px black;
-}
-
-.earth {
-  border: solid 2px blue;
-}
-
-.burger {
-  border: solid 1px black;
-}
-
-.research {
-  border: solid 2px blue;
-}
-
-.fbi {
-  border: solid 1px black;
-}
-
-.brooklyn {
-  border: solid 2px blue;
-}
-
-
-.cookie {
-  border: solid 2px red;
-}
-
-.news {
-  border: solid 2px blue;
+  display: flex;
+  flex-direction: column;
 }
